@@ -1,0 +1,17 @@
+#openpara {
+  font-family: "Oswald", sans-serif;
+  font-size: 5em;
+}
+.typer {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4em;
+  color: rgb(69, 121, 69);
+}
+.typecursor {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4em;
+  color: rgb(69, 121, 69);
+}
+#logo {
+  padding-top: 4em;
+}
