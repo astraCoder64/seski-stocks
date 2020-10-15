@@ -50,6 +50,7 @@ export default class Navbar extends Component {
           <li>
             <a data-tra="#wus" className="waves-effect waves-light">Why us?</a>
           </li>
+          <li><Contact/></li>
         </ul>
       </div>
     );

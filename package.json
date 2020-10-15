@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "babel": "babel babbelIn -d babelOut"
+    "babelify": "babel babelIn -d babelOut"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,6 +34,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.1",
     "@babel/preset-react": "^7.10.4"
   }
 }
