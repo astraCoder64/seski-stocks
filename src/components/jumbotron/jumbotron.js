@@ -7,7 +7,7 @@ export default class Jumbotron extends Component {
     return (
       <div id="welcome" className="container center hide-on-small section scrollspy">
         <div className="row hide-on-med-and-down">
-          <img id="bigpic" width="90%" height="575px" src="https://i.ibb.co/9nfFKCq/stockertrans.png" />
+          <img id="bigpic" width="90%" height="575px" src="https://i.ibb.co/9nfFKCq/stockertrans.png" alt="miss"/>
         </div>
         <div className="row center">
           <p id="openpara">

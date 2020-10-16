@@ -1,19 +1,18 @@
 import React from 'react';
-import Navbar from './navbar/navbar'
-import Jumbotron from'./jumbotron/jumbotron'
-import Whystock from'./body/whystock'
-import Whyus from './body/whyus'
-import Carousel from './carousel/carousel'
+import {BrowserRouter as Router, Route,Switch} from 'react-router-dom'
+import home from './pages/home'
+import form from './pages/form'
 import './App.css';
 
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
-      <Jumbotron/>
-      <Whystock />
-      <Carousel />
-      <Whyus />
+      <Router>
+        <Switch>
+          <Route path="/" component={ home} exact/>
+          <Route path="/getstarted" component={form} exact/>
+        </Switch>
+      </Router>
     </React.Fragment>
   );
 }

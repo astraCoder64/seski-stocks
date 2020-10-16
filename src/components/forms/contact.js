@@ -47,11 +47,12 @@ export default class Contact extends Component {
         <div id="contactus" className="modal">
           <div className="modal-content">
           <div className="navbar">
-                    <a className="waves-effect waves-red btn-flat tooltipped" data-position="bottom" data-tooltip="Close" id="close" onClick={this.handleClose}><i className="material-icons">close</i></a>
-                    <h4 className="center" id="modhead">Contact Us!</h4>
+            <a className="waves-effect waves-red btn-flat tooltipped" data-position="bottom"
+            data-tooltip="Close" id="close" onClick={this.handleClose}>
+              <i className="material-icons">close</i></a>
+              <h4 className="center" id="modhead">Contact Us!</h4>
             </div>
-            {/* add form here */}
-          </div>
+            </div>
           <div className="modal-footer">
             <a className="btn waves-effect waves-light" type="submit" name="action" onClick={this.handleSubmit}>Submit
                 <i className="material-icons right">send</i>

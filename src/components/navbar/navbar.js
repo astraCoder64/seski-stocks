@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom'
 import './nav.css'
 import Contact from'../forms/contact'
 
@@ -25,6 +26,9 @@ export default class Navbar extends Component {
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
+            <ul className="left">
+              <li><Link to='/getstarted'><button className="btn waves-effect">Get Started</button></Link></li>
+            </ul>
             <ul className="right hide-on-med-and-down">
               <li>
                 <a href="#welcome" className="waves-effect waves-light">Welcome</a>
