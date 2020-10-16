@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Link} from 'react-router-dom'
 import './nav.css'
-import Contact from'../modal/contact'
+import Contact from'../forms/contact'
 
 export default class Navbar extends Component {
 
