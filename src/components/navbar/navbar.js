@@ -27,7 +27,6 @@ export default class Navbar extends Component {
               <i className="material-icons">menu</i>
             </a>
             <ul className="left">
-              <li><Link to='/getstarted'><button className="btn waves-effect">Get Started</button></Link></li>
             </ul>
             <ul className="right hide-on-med-and-down">
               <li>
@@ -40,7 +39,7 @@ export default class Navbar extends Component {
                 <a href="#wus" className="waves-effect waves-light">Why us?</a>
               </li>
               <li>
-                <a class="waves-effect waves-light btn">Sign Up / Login</a>
+              <Link to='/getstarted'><button className="waves-effect waves-light btn">Sign Up / Login</button></Link>
               </li>
               <li><Contact/></li>
             </ul>
