@@ -9,7 +9,7 @@ export class home extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
+      <Navbar />
       <Jumbotron/>
       <Whystock />
       <Carousel />
