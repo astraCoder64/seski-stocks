@@ -6,8 +6,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+<<<<<<< HEAD
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+=======
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+>>>>>>> 50f5a3b8670263deb4c940afaa32598acaf2e186
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "typewriter-effect": "^2.13.1"
@@ -37,6 +42,6 @@
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.1",
-    "@babel/preset-react": "^7.10.4"
+    "@babel/preset-react": "^7.12.1"
   }
 }
