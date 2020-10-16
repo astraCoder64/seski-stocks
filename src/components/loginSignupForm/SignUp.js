@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './form.css'
 
 class SignUp extends React.Component {
@@ -62,13 +63,14 @@ class SignUp extends React.Component {
                 onChange={this.handleChange} value={this.state.confirmPassword}/>
               </div>
               <input type="submit" className="buton" value="Sign up" />
-              <p className="social-text">Or Sign up with Google</p>
+              {/* <p className="social-text">Or Sign up with Google</p>
               <div className="social-media">
                 <a href="#!" className="social-icon">
                   <i className="fas fa-google"></i>
                 </a>
-              </div>
+              </div> */}
             </form>
+            <Link to="/"><button className="buton">Go Back</button></Link>
       </React.Fragment>
     )
   }

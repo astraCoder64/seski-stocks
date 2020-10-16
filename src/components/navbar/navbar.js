@@ -21,7 +21,7 @@ export default class Navbar extends Component {
         <nav className="black">
           <div className="nav-wrapper">
             <a href="#!" className="brand-logo center">
-              <img alt="logo" width="50%" height="50px" src="https://i.ibb.co/9nfFKCq/stockertrans.png" />
+              <img alt="logo" width="30%" height="50px" src="https://i.ibb.co/9nfFKCq/stockertrans.png" />
             </a>
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>

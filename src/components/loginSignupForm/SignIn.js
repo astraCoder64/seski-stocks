@@ -41,12 +41,12 @@ class SignIn extends React.Component {
               onChange={this.handleChange} value={this.state.password}/>
             </div>
             <input type="submit" value="Login" className="buton soli" />
-            <p className="social-text">Or Sign in Google</p>
+            {/* <p className="social-text">Or Sign in Google</p>
             <div className="social-media">
               <a href="#!" className="social-icon">
                 <i className="fas fa-google"></i>
               </a>
-            </div>
+            </div> */}
           </form>
     </React.Fragment>
   )
