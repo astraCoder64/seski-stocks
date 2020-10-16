@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './nav.css'
-import Contact from'../forms/contact'
+import Contact from'../modal/contact'
 
 export default class Navbar extends Component {
 
@@ -10,7 +10,7 @@ export default class Navbar extends Component {
 
         document.addEventListener('DOMContentLoaded', function() {
           var elems = document.querySelectorAll('.scrollSpy');
-          var instances = M.ScrollSpy.init(elems, {throttle: 200});
+          var instances = M.ScrollSpy.init(elems, {throttle: 150});
         });
     }
 
@@ -20,7 +20,7 @@ export default class Navbar extends Component {
         <nav className="black">
           <div className="nav-wrapper">
             <a href="#!" className="brand-logo center">
-              <img width="50%" height="50px" src="https://i.ibb.co/9nfFKCq/stockertrans.png" />
+              <img alt="logo" width="50%" height="50px" src="https://i.ibb.co/9nfFKCq/stockertrans.png" />
             </a>
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
@@ -35,6 +35,9 @@ export default class Navbar extends Component {
               <li>
                 <a href="#wus" className="waves-effect waves-light">Why us?</a>
               </li>
+              <li>
+                <a class="waves-effect waves-light btn">Sign Up / Login</a>
+              </li>
               <li><Contact/></li>
             </ul>
           </div>
@@ -48,7 +51,7 @@ export default class Navbar extends Component {
             <a href="#wss" className="waves-effect waves-light">Why invest?</a>
           </li>
           <li>
-            <a data-tra="#wus" className="waves-effect waves-light">Why us?</a>
+            <a href="#wus" className="waves-effect waves-light">Why us?</a>
           </li>
           <li><Contact/></li>
         </ul>

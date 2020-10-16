@@ -40,8 +40,8 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
-        <a className="waves-effect waves-light btn modal-trigger" href="#contactus">
-          Contact Us<i className="material-icons">phone</i>
+        <a className="waves-effect waves-light btn modal-trigger tooltipped" data-position="bottom" data-tooltip="hola Señor !" href="#contactus">
+          Contact Us
         </a>
 
         <div id="contactus" className="modal">
