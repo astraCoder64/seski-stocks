@@ -1,8 +1,7 @@
 const functions = require('firebase-functions');
 const express=require('express');
 const cors=require('cors');
-const {home}=require('./routes/home');
-const {dashboard}=require('./routes/dashboard');
+const {dashboard,deleteuser}=require('./routes/user');
 const {getsignup,postsignup}=require('./routes/signup');
 const { getlogout } = require('./routes/logout');
 const { getlogin, postlogin } = require('./routes/login');
@@ -21,8 +20,6 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json())
 
 //---------Routes----------
-//Home
-app.get('/',home)
 
 //Signup
 app.get('/signup',getsignup)
@@ -48,6 +45,7 @@ app.put('/stocks',updatestocks)
 
 //Dashboard 
 app.get('/user/dashboard',dashboard)
+app.delete('/user',deleteuser)
 
 //Continous function to watch stocks
 stockerpro();

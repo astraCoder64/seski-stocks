@@ -29,3 +29,7 @@ exports.dashboard= async(req,res)=>{
     res.status(500).send("Internal server error");
   }
 }
+
+exports.deleteuser = async(req,res)=>{
+ console.log("USer");
+}
