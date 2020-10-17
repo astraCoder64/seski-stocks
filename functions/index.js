@@ -2,7 +2,6 @@ const functions = require('firebase-functions');
 const express=require('express');
 const cors=require('cors');
 const {home}=require('./routes/home');
-const {user}=require('./routes/user');
 const {dashboard}=require('./routes/dashboard');
 const {getsignup,postsignup}=require('./routes/signup');
 const { getlogout } = require('./routes/logout');
@@ -46,9 +45,6 @@ app.delete('/stocks',deletestocks)
 
 //Update Stock details
 app.put('/stocks',updatestocks)
-
-//User Profile
-app.get('/users',user)
 
 //Dashboard 
 app.get('/user/dashboard',dashboard)
